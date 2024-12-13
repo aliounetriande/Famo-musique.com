@@ -1,3 +1,4 @@
+import logo from './logo.png'
 import home_icon from './home.png'
 import bell_icon from './bell.png'
 import like_icon from './like.png'
@@ -36,6 +37,7 @@ import song_3 from  './song_3.mp3'
 import song_4 from  './song_4.mp3'
 
 export const assets = {
+    logo,
     bell_icon,
     home_icon,
     like_icon,
@@ -66,31 +68,31 @@ export const playlistsData = [
         id:0,
         name: "AFRO VIBES HITS",
         desc:"Les meilleurs song Afrobeats du moment",
-        image: img_playlist_1,
+        image: img_playlist_1
     },
     {   
         id:1,
         name: "Best of Booba",
         desc:"Retrouvez dans cette playlist les hits intemporels du roi du Rap Fr",
-        image: img_playlist_2,
+        image: img_playlist_2
     },
     {   
         id:2,
         name: "RAP Fr",
         desc:"Les meilleurs rappeurs francais du moment",
-        image: img_playlist_3,
+        image: img_playlist_3
     },
     {   
         id:3,
         name: "RAP Ivoire",
         desc:"De DIDI B à HIMRA en passant par Suspect 95 Retrouvez dans cette playlist les hits du RAP Ivoire",
-        image: img_playlist_4,
+        image: img_playlist_4
     },
     {   
         id:4,
         name: "RAP Triste",
         desc:"Melancolique? Cette playlist est faite pour vous",
-        image: img_playlist_5,
+        image: img_playlist_5
         
     }
 ]
