@@ -8,7 +8,7 @@ import SongItem from './SongItem'
 const DisplayHome = () => {
   return (
     <>
-        <Navbar/>
+       
         <div className='mb-4'>
             <h1 className='my-5 font-bold text-2xl'>A ne pas manquer</h1>
             <div className='flex overflow-auto'>
