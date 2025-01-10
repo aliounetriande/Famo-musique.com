@@ -13,7 +13,7 @@ const Register = () => {
     password:"",
   });
   const [err, setError] = useState(null);
-
+//hzhzhzhz
   const navigate = useNavigate()
 
 const handleChange = e =>{
